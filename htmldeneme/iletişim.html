@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="css/iletişim.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+                                                                                         
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2><a href="#"> meryem terzi</a></h2>
+            </div>
+            <ul class="nav_links">
+                <li><a href="girissayfasi.html">Hakkımda</a></li>
+                <li><a href="özgeçmiş.html">Özgeçmiş</a></li>
+                <li><a href="şehrim.html"> Şehrim</a></li>
+                <li><a href="ilgialanlarım.html">İlgi Alanlarım</a></li>
+                <li><a href="girissayfasi.html">Giriş Sayfası </a></li>
+                <li><a href="iletişim.html">İletişim</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <section id="Hakkimda">
+        <div class="section_title">
+            <h2>İLETİŞİM</h2><br><br></div>
+           
+        
+    </section>
+    <h3>Üyelik işlemleri için lütfen formu doldurunuz..</h3>
+    <form class="form" style="display: inline;" >
+        <div class="form-group " style="margin-left: 5%; ">
+            <label for="isim">İsim - Soyisim</label>
+            <input type="text" class="form-control" id="text1" placeholder="lütfen isminizi ve soyisminizi giriniz"style="width: 40%;" >
+           
+          </div>
+        <div class="form-group" style="margin-left: 5%;">
+          <label for="Email1">Email adresiniz</label>
+          <input type="email" class="form-control" id="Email1" placeholder="email adresinizi giriniz " style="width: 40%;" >
+         
+        </div>
+        <div class="form-group" style="margin-left: 5%;">
+          <label for="Password1">Şifreniz</label>
+          <input type="password" class="form-control" id="Password1" placeholder="şifrenizi giriniz"style="width: 40%;" >
+          <small id="emailHelp" class="form-text text-muted"style="margin-left: 5%;">Şifrenizi bizimle güvende</small>
+        </div>
+        <div class="form-group"style="margin-left: 5%;">
+            <label for="radio1">Cinsiyetiniz</label> <br>
+            <input type="radio" id="kadın" name="cinsiyet" class="cinsiyet">
+            <label for="kadın">Kadın</label> <br>
+            <input type="radio" id="erkek" name="cinsiyet" class="cinsiyet">
+            <label for="erkek">Erkek</label>
+        </div>
+
+        <div class="form-group"style="margin-left: 5%;">
+              <label for="Select1">Web Sitemi Nasıl Buldunuz?</label>
+           <select class="form-control" id="Select1" style="width: 40%;" >
+               <option selected disabled>Seçiniz</option>
+               <option>Bu sayfa bir 90 alır</option>
+               <option>Mükemmel</option>
+               <option>Beğendim</option>
+               <option>İyi iş çıkarmışsınız</option>
+               <option>İyi</option>
+         </select>
+        </div>
+        <div class="form-group"style="margin-left: 5%;">
+            <label for="Textarea1">Dilek ve Şikayet(varsa)</label>
+            <textarea class="form-control" id="Textarea1" rows="3" style="width: 40%;" >
+
+            </textarea>
+          </div>
+        <div class="form-group ">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1"style="margin-left: 4%;">
+          <label class="form-check-label" for="Check1"style="margin-left: 6%;">Okudum kabul ediyorum</label>
+          
+        </div>
+        <br>
+        <button type="reset " class="btn btn-primary"style="margin-left: 5% ;"> Sıfırla</button>
+        <button type="submit" class="btn btn-primary"style="margin-left: 5%; " id="gonder">Gönder</button>
+      </form>
+   <div class="linkler">
+
+
+<div class="linkler">
+    <div class="div1" onclick="window.location.href='https://wa.me/5011457847';"><i class="fa-brands fa-whatsapp"></i>WhatsApp</div>
+    <div class="div2" onclick="window.location.href='https://www.instagram.com/esmaa_kole?igsh=Z3hna2R4MWNsa3Fo';"><i class="fa-brands fa-instagram"></i>İnstagram</div>
+    <div class="div3" onclick="window.location.href='https://www.linkedin.com/in/esmanur-k%C3%B6le-4279a7292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app';"><i class="fa-brands fa-linkedin"></i>Linkedin</div>
+    <div class="div4" onclick="window.location.href='https://discord.com/invite/bB27ZbwA';"><i class="fa-brands fa-discord"></i>Discord</div>
+    <div class="div5" onclick="window.location.href='mailto:kolesmanurr@gmail.com';"><i class="fa-regular fa-envelope"></i>E-Mail</div>
+</div>
+</div>
+
+<script src="form.js"></script>
+</body>
+</html>
